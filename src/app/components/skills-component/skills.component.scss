@@ -1,0 +1,351 @@
+ 
+  .title {
+    text-align: center;
+    letter-spacing: 1px; }
+  
+  .skillBox {
+    margin: 20px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  
+  i {
+   /* float: left;
+    width: 5%;
+    font-size: 30px;
+    padding-right: 5px; */}
+
+  .fa-html5 {
+    color: #be4bdb; 
+  }
+  
+  .fa-sass {
+    color: #15aabf; }
+  
+  .fa-react {
+    color: #4c6ef5; }
+  
+  .fa-vuejs {
+    color: #41b883; }
+  
+  .fa-angular {
+    color: #E42939; }
+
+  .fa-angellist {
+    color: #0063b8; }    
+
+  .fa-npm {
+    color: #cb3837; }
+  
+  .fa-js {
+    color: #f0d91d; }
+  
+  .fa-html5 {
+    color: #dd4d25; }
+  
+  .fa-bootstrap {
+    color: #543b79;
+  }
+
+  /*.skillBar {
+    width: 85%;
+    height: 35px;
+    margin: 2px auto; }*/
+  
+  /*.skillArea {
+    width: 90%;
+    margin-left: 10px;
+    position: relative;
+    left: 11px;
+    top: 7px; }*/
+  
+  /*.skillName {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+    position: relative;
+    top: 5px; }*/
+  
+  .skill-100 {
+    width: 100%;
+    height: 2px;
+    -webkit-animation: Animate-100 3s;
+            animation: Animate-100 3s;
+    background-color: #000000;
+    position: relative;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+  .skill-90 {
+    width: 90%;
+    height: 2px;
+    -webkit-animation: Animate-90 3s;
+            animation: Animate-90 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+  
+  .skill-85 {
+    width: 85%;
+    height: 2px;
+    -webkit-animation: Animate-85 3s;
+            animation: Animate-85 3s;
+    background-color: #000000;
+    position: relative;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  
+  .skill-80 {
+    width: 80%;
+    height: 2px;
+    -webkit-animation: Animate-80 3s;
+            animation: Animate-80 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+
+  .skill-75 {
+    width: 75%;
+    height: 2px;
+    -webkit-animation: Animate-75 3s;
+            animation: Animate-75 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+
+  .skill-70 {
+    width: 70%;
+    height: 2px;
+    -webkit-animation: Animate-70 3s;
+            animation: Animate-70 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+
+  .skill-60 {
+    width: 60%;
+    height: 2px;
+    -webkit-animation: Animate-60 3s;
+            animation: Animate-60 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+  
+  .skill-50 {
+    width: 50%;
+    height: 2px;
+    -webkit-animation: Animate-50 3s;
+            animation: Animate-50 3s;
+    background-color: #000000;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+  
+  @-webkit-keyframes Animate-100 {
+    from {
+      width: 0; }
+    to {
+      width: 100%; } }
+  
+  @keyframes Animate-100 {
+    from {
+      width: 0; }
+    to {
+      width: 100%; } }
+
+  @-webkit-keyframes Animate-90 {
+    from {
+      width: 0; }
+    to {
+      width: 90%; } }
+  
+  @keyframes Animate-90 {
+    from {
+      width: 0; }
+    to {
+      width: 90%; } }
+  
+  @-webkit-keyframes Animate-85 {
+    from {
+      width: 0; }
+    to {
+      width: 85%; } }
+  
+  @keyframes Animate-85 {
+    from {
+      width: 0; }
+    to {
+      width: 85%; } }
+  
+  @-webkit-keyframes Animate-80 {
+    from {
+      width: 0; }
+    to {
+      width: 80%; } }
+  
+  @keyframes Animate-80 {
+    from {
+      width: 0; }
+    to {
+      width: 80%; } }
+
+  @-webkit-keyframes Animate-75 {
+    from {
+      width: 0; }
+    to {
+      width: 75%; } }
+  
+  @keyframes Animate-75 {
+    from {
+      width: 0; }
+    to {
+      width: 75%; } }
+
+  @-webkit-keyframes Animate-70 {
+    from {
+      width: 0; }
+    to {
+      width: 70%; } }
+  
+  @keyframes Animate-70 {
+    from {
+      width: 0; }
+    to {
+      width: 70%; } }
+      
+  @-webkit-keyframes Animate-60 {
+    from {
+      width: 0; }
+    to {
+      width: 60%; } }
+  
+  @keyframes Animate-60 {
+    from {
+      width: 0; }
+    to {
+      width: 60%; } }
+  
+      
+  @-webkit-keyframes Animate-50 {
+    from {
+      width: 0; }
+    to {
+      width: 50%; } }
+  
+  @keyframes Animate-50 {
+    from {
+      width: 0; }
+    to {
+      width: 50%; } }
+  
+
+  
+  @-webkit-keyframes Animate-90 {
+    from {
+      width: 0; }
+    to {
+      width: 90%; } }
+  
+  @keyframes Animate-90 {
+    from {
+      width: 0; }
+    to {
+      width: 90%; } }
+  
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 480px) {
+    /*.fa-bootstrap {
+      font-size: 310%; }
+    .fa-sass {
+      font-size: 310%; }
+    .fa-html5 {
+      font-size: 300%; }
+    .fa-js {
+      font-size: 300%; }
+    .fa-angular {
+      font-size: 300%; }
+    .fa-vuejs {
+      font-size: 300%; }
+    .fa-react {
+      font-size: 310%; }*/
+    .skillBar {
+      width: 80%;
+      height: 35px;
+      margin: 10px auto; }
+    /*.skillArea {
+      margin-left: 10px;
+      position: relative;
+      left: 35px;
+      top: 10px;
+      padding: 5px; }*/
+    /*.skillName {
+      font-size: 14px;
+      margin: 35px;
+      position: relative;
+      top: 10px; } */}
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    .skillBar {
+      width: 75%;
+      margin: 10px auto; }
+    /*.skillArea {
+      position: relative;
+      left: 35px;
+      top: 10px;
+      padding: 5px; }*/
+    /*.skillName {
+      font-size: 14px;
+      margin: 35px;
+      position: relative;
+      top: 10px; }*/ }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    /*.skillBar {
+      width: 70%; }*/ }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width: 1200px) {
+    /*.skillBar {
+      width: 65%; }*/ }
+
+  .info-list {
+    list-style-type: none;
+  }
+
+  .job-link {
+    color:black;
+    text-decoration: underline;
+  }
+
+.language-name {
+  display: inline-block;
+  width: 50%;
+  padding-right: 8px;
+}
+
+.language-desc {
+    display: inline-flex;
+    width: 50%;
+    font-weight: 700;
+    min-height: 16px;
+}

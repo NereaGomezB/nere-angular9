@@ -1,0 +1,40 @@
+
+.date.with-icons .date-numbers {
+    margin-right: 4px;
+}
+.date.with-icons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    align-items: center;
+    position: relative;
+}
+
+.experience-info .date, .grid-50-50 .skill-category-name {
+    text-transform: uppercase;
+}
+
+.date.with-icons .date-numbers {
+    margin-right: 4px;
+}
+
+.linkified {
+    text-decoration: underline;
+    color: inherit;
+    font-size: 13px;
+}
+
+.date-address {
+    text-transform: uppercase;
+}
+
+.position, 
+.publication-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.company-name {
+    font-size: 14px;
+    font-weight: 700;
+}
